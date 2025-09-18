@@ -4,4 +4,3 @@ pypdf
 python-docx
 openai
 anthropic
-google-generative-ai
