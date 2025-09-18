@@ -9,6 +9,17 @@
 # Usage: pip install streamlit tiktoken pypdf python-docx openai anthropic google-generative-ai
 # Run: streamlit run token_counter_app.py
 
+# Token Counter & Prompt Playground (Streamlit)
+# Features:
+# - Token counting (tiktoken)
+# - Multi-model cost estimates (GPT, Claude, Gemini)
+# - File upload: .pdf, .txt, .docx (extract text and compute tokens/cost)
+# - Context-window visualizer for several models
+# - Compare Outputs UI: paste model responses or (optionally) call APIs for OpenAI/Anthropic/Google
+#
+# Usage: pip install streamlit tiktoken pypdf python-docx openai anthropic google-generative-ai
+# Run: streamlit run token_counter_app.py
+
 import streamlit as st
 from io import BytesIO
 import json
